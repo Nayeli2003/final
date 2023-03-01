@@ -6,7 +6,7 @@ class Conexion {
     static public function conectar(){
         #PDO ("nombre del servidor; nombre bd","usuario","contraseña")
 
-        $link = new PDO("mysql:host=167.71.249.82:9001;dbname=clep5fk3f001c9apbhir61qnq","clep5fk3c001a9apb5j319b5a","PSn86q88WHAHwyVgSJ83k7jW");
+        $link = new PDO("mysql:host=167.71.249.82;port=9001;dbname=clep5fk3f001c9apbhir61qnq","clep5fk3c001a9apb5j319b5a","PSn86q88WHAHwyVgSJ83k7jW");
 
         $link -> exec("set names utf8");
 
